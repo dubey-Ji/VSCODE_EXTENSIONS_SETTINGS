@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.trimAutoWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "afterDelay",
+  "editor.largeFileOptimizations": false
+}

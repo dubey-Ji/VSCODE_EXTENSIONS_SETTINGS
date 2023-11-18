@@ -1,0 +1,12 @@
+{
+  "name": "vscode_extensions_settings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./scripts/setup.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
