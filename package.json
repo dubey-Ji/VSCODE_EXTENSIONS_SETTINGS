@@ -6,7 +6,12 @@
   "scripts": {
     "postinstall": "./scripts/setup.sh"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vscode extensions",
+    "vscode settings",
+    "extensions",
+    "settings"
+  ],
+  "author": "Ashutosh Dubey",
   "license": "MIT"
 }
