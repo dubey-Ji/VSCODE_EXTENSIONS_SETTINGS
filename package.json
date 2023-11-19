@@ -4,7 +4,7 @@
   "description": "A package for automated setup of Visual Studio Code with predefined extensions and settings according to the company's standards.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "./scripts/setup.sh"
+    "postinstall": "./setup.js"
   },
   "keywords": [
     "vscode extensions",
