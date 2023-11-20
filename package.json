@@ -4,7 +4,7 @@
   "description": "A package for automated setup of Visual Studio Code with predefined extensions and settings according to the company's standards.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "./scripts/setup.sh"
+    "postinstall": "./setup.js"
   },
   "keywords": [
     "vscode extensions",
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/VSCODE_EXTENSIONS_SETTINGS.git"
+    "url": "git+https://github.com/dubey-Ji/VSCODE_EXTENSIONS_SETTINGS.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/VSCODE_EXTENSIONS_SETTINGSo/issues"
+    "url": "https://github.com/dubey-Ji/VSCODE_EXTENSIONS_SETTINGSo/issues"
   },
-  "homepage": "https://github.com/your-username/VSCODE_EXTENSIONS_SETTINGS#readme"
+  "homepage": "https://github.com/dubey-Ji/VSCODE_EXTENSIONS_SETTINGS#readme"
 }
