@@ -23,6 +23,7 @@ The package contains the following files and directories:
 * extensions/: Includes the extensions.json file listing recommended VSCode extensions.
 * settings/: Holds the settings.json file containing predefined VSCode settings.
 * README.md: Instructions for using the package.
+* setup.js: This script orchestrates the setup process, detecting the operating system and invoking the appropriate setup script based on the OS.
 * package.json: Configuration file for the package.
 
 
