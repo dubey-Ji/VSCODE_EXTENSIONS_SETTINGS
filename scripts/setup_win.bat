@@ -4,8 +4,8 @@ REM Arguments %1 and %2 correspond to extensionsFile and settingsFile respective
 echo Extensions file path: %1
 echo Settings file path: %2
 
-REM Install extensions from extensions file
-for /f %%x in (%1) do (
+REM Read extensions from extensions.json using PowerShell
+for /f %%x in ('powershell -Command "(Get-Content %1 | ConvertFrom-Json).recommendations"') do (
     code --list-extensions | findstr /i "%%x" >nul
     if errorlevel 1 (
         echo Installing extension: %%x
@@ -16,6 +16,7 @@ for /f %%x in (%1) do (
 )
 
 REM Apply settings from settings file
-code --settings-file "%2"
+REM Replace 'DESTINATION_PATH' with the appropriate path where you want to copy the settings file
+copy /Y "%~f2" "%USERPROFILE%\AppData\Roaming\Code\User\settings.json"
 
 echo Setup complete.
